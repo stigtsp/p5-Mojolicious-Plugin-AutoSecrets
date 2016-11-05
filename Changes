@@ -1,0 +1,6 @@
+Changelog for Mojolicious-Plugin-AutoSecrets
+
+0.001 2016-11-05T18:57:22
+ - let's get an automatic readme (Meredith Howard)
+ - pod touchups (Meredith Howard)
+ - Initial commit (Meredith Howard)
