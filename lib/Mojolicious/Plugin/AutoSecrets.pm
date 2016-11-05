@@ -22,6 +22,8 @@ Secrets are used to ensure integrity and trust L<Mojolicious> default session
 cookies.  Letting code manage them means that code becomes part of your
 security.  Read this documentation and review this code!
 
+Take it from me, never trust a programmer.
+
 =head1 OVERVIEW
 
 L<Mojolicious::Plugin::AutoSecrets> requires no configuration, but does support
@@ -150,8 +152,8 @@ sub generator {
 
 =for :list
 * L<Mojolicious>
-* L<Mojolicious::Guides>
-* L<http://mojolicious.org>
+* L<Mojolicious::Sessions>
+* L<Mojolicious::Controller/signed_cookie>
 
 =cut
 
