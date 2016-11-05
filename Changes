@@ -1,6 +1,8 @@
 Changelog for Mojolicious-Plugin-AutoSecrets
 
-0.001 2016-11-05T18:57:22
+0.001 2016-11-05T19:38:03
+ - add initial Changes and readme (Meredith Howard)
+ - dist improvement (Meredith Howard)
  - let's get an automatic readme (Meredith Howard)
  - pod touchups (Meredith Howard)
  - Initial commit (Meredith Howard)
