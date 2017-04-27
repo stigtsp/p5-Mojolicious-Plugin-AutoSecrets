@@ -5,7 +5,7 @@ use Mojolicious::Lite;
 use Test::Mojo;
 
 use File::Temp qw(tempfile);
-use Mojo::Util qw(slurp);
+use Mojo::File qw(path);
 use Mojo::JSON qw(decode_json);
 
 my (undef, $tempfile) = tempfile;
@@ -26,7 +26,7 @@ ok $t->app->secrets, 'Secrets are set';
 
 ok -f $tempfile, 'Secret file created';
 
-my $secrets_json = slurp($tempfile);
+my $secrets_json = path($tempfile)->slurp;
 ok $secrets_json, 'Secrets file has content';
 
 my $secrets = decode_json $secrets_json;
