@@ -76,8 +76,6 @@ use Carp qw(croak);
 use Fcntl qw(:DEFAULT :flock);
 use autodie;
 
-our $VERSION = '0.01';
-
 =method register
 
   $plugin->register(Mojolicious->new);
